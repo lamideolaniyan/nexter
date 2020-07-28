@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Nexter webpage",
   "main": "index.js",
+  "homepage": "https://cyber-mat.github.io/nexter",
   "scripts": {
     "watch:sass": "node-sass sass/main.scss css/style.css -w",
     "devserver": "live-server --browser=firefox",
@@ -21,14 +22,10 @@
   "bugs": {
     "url": "https://github.com/Cyber-Mat/nexter/issues"
   },
-  "homepage": "https://github.com/Cyber-Mat/nexter#readme",
   "devDependencies": {
     "autoprefixer": "^9.8.4",
     "node-sass": "^4.14.1",
     "npm-run-all": "^4.1.5",
     "postcss-cli": "^7.1.1"
-  },
-  "dependencies": {
-    "lodash": "^4.17.19"
   }
 }
